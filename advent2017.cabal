@@ -52,11 +52,11 @@ extra-doc-files:    CHANGELOG.md
 -- extra-source-files:
 
 common shared-properties
-    ghc-options: -Wall
-    build-depends: base ^>= 4.20.0.0,
-                   parsec ^>= 3.1
-    hs-source-dirs: app
-    other-modules: AoC
+    ghc-options:      -Wall
+    build-depends:    base ^>= 4.20.0.0,
+                      parsec ^>= 3.1
+    hs-source-dirs:   app
+    other-modules:    AoC
     default-language: GHC2021
 
 executable day01
@@ -66,3 +66,8 @@ executable day01
 executable day02
     import:           shared-properties
     main-is:          day02.hs
+
+executable day03
+    import:           shared-properties
+    build-depends:    containers ^>= 0.7
+    main-is:          day03.hs
