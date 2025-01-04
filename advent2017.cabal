@@ -71,3 +71,7 @@ executable day03
     import:           shared-properties
     build-depends:    containers ^>= 0.7
     main-is:          day03.hs
+
+executable day04
+    import:           shared-properties
+    main-is:          day04.hs
