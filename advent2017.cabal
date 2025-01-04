@@ -95,3 +95,7 @@ executable day08
     import:           shared-properties
     build-depends:    containers ^>= 0.7
     main-is:          day08.hs
+
+executable day09
+    import:           shared-properties
+    main-is:          day09.hs
