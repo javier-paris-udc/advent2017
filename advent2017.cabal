@@ -153,3 +153,8 @@ executable day20
     import:           shared-properties
     build-depends:    containers ^>=0.7
     main-is:          day20.hs
+
+executable day21
+    import:           shared-properties
+    build-depends:    containers ^>=0.7
+    main-is:          day21.hs
