@@ -174,3 +174,8 @@ executable day24
     import:           shared-properties
     build-depends:    containers ^>=0.7
     main-is:          day24.hs
+
+executable day25
+    import:           shared-properties
+    build-depends:    containers ^>=0.7
+    main-is:          day25.hs
