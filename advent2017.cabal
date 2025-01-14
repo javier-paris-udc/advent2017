@@ -169,3 +169,8 @@ executable day23
     build-depends:    containers ^>=0.7,
                       transformers ^>= 0.6
     main-is:          day23.hs
+
+executable day24
+    import:           shared-properties
+    build-depends:    containers ^>=0.7
+    main-is:          day24.hs
